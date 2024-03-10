@@ -1,5 +1,4 @@
 <script>
-  import { fade } from "svelte/transition";
   import ProductCard from "./ProductCard.svelte";
   import Wrapper from "./Wrapper.svelte";
 
@@ -12,7 +11,7 @@
         "Begginer friendly exercieses",
       ],
       desc: "We ensures all users have the information they need to train safely and train effectively.",
-      imgUrl: "",
+      imgUrl: "assets/selection.png",
     },
     {
       featureList: [
@@ -22,7 +21,7 @@
         "Guarantees progress on all core exercises",
       ],
       desc: "Build your streaks and see your progress with our amazing tracking and analytics features.",
-      imgUrl: "",
+      imgUrl: "assets/training.png",
     },
     {
       featureList: [
@@ -32,7 +31,7 @@
         "Builds function strength",
       ],
       desc: "Enter as much information about yourself as you desire to ensure all workouts are personalized to your every need.",
-      imgUrl: "",
+      imgUrl: "assets/goal.png",
     },
   ];
 </script>
@@ -58,7 +57,7 @@
   >
     {#each features as feat, index}
       <ProductCard {feat} {index}>
-        <!-- {#if index === 0}
+        {#if index === 0}
           Experience a beginner exercise <span
             class="text-indigo-400 font-medium">master</span
           > class
@@ -72,7 +71,7 @@
           >
           and
           <span class="text-indigo-400 font-medium">expertise</span>
-        {/if} -->
+        {/if}
       </ProductCard>
     {/each}
   </div>

@@ -42,6 +42,24 @@ span {
     linear-gradient(to bottom, rgb(35, 35, 35) 1px, transparent 1px);
 }
 
+.dropShadow {
+  filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2));
+}
+
+.fadeIn {
+  animation: fadeIn 300ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @layer components {
   /* Button */
   .specialBtn {
