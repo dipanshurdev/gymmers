@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind&family=Mooli&family=Onest:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: "Mooli", sans-serif; */
+  /* font-family: "Hind", sans-serif; */
+  font-family: "Onest", sans-serif;
+
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3 {
+  font-family: "Hindi";
+}
+
+span {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.bgGrid {
+  background-size: 80px 80px;
+  background-image: linear-gradient(
+      to right,
+      rgb(35, 35, 35) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(35, 35, 35) 1px, transparent 1px);
+}
