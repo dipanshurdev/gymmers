@@ -61,6 +61,7 @@
           </div>
         </div>
       {/each}
+      <p>4k+</p>
     </div>
   </div>
 </Wrapper>
