@@ -40,7 +40,7 @@
           </a>
         </li>
       {/each}
-      <button class="button"> Contact </button>
+      <button class="specialBtn"> Contact </button>
     </nav>
   </div>
 </header>
