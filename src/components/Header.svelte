@@ -40,6 +40,7 @@
           </a>
         </li>
       {/each}
+      <button class="button"> Contact </button>
     </nav>
   </div>
 </header>
