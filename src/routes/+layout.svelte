@@ -81,7 +81,7 @@
 
 {#if y > outerHeight}
   <div
-    class="bg-slate-50 fixed top-0 left-0 w-full flex flex-col z-20 py-2 max-w-[1400px] fadeIn auto"
+    class="bg-slate-50 fixed top-0 left-0 w-full flex flex-col z-20 py-2 fadeIn auto"
   >
     <Header />
   </div>
