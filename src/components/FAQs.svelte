@@ -1,5 +1,5 @@
 <script>
-  import Wrapper from "./wrapper.svelte";
+  import SectionWrapper from "./SectionWrapper.svelte";
   let faqs = [
     {
       question: "What is GYMMERS?",
@@ -44,7 +44,7 @@
   ];
 </script>
 
-<Wrapper id="faqs">
+<SectionWrapper id="faqs">
   <div
     class="flex flex-col gap-10 sm:gap-14 md:gap-24 py-20 flex-1 items-center justify-center"
   >
@@ -80,5 +80,5 @@
         </div>
       {/each}
     </div>
-  </div></Wrapper
+  </div></SectionWrapper
 >

@@ -3,10 +3,10 @@
   import Header from "./Header.svelte";
 
   import Stars from "./Stars.svelte";
-  import Wrapper from "./wrapper.svelte";
+  import SectionWrapper from "./SectionWrapper.svelte";
 </script>
 
-<Wrapper id="home">
+<SectionWrapper id="home">
   <Header />
   <div
     class="flex flex-col flex-1 max-w-[1400px] mx-auto w-full items-center justify-center"
@@ -38,4 +38,4 @@
       <Stars />
     </div>
   </div>
-</Wrapper>
+</SectionWrapper>
