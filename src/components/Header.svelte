@@ -6,15 +6,15 @@
     },
     {
       text: "Product",
-      href: "/product",
+      href: "products",
     },
     {
       text: "Review",
-      href: "/review",
+      href: "reviews",
     },
     {
       text: "FAQs",
-      href: "/faqs",
+      href: "faqs",
     },
   ];
 </script>
@@ -37,12 +37,14 @@
     <nav class="hidden md:flex items-center justify-center lg:gap-6 gap-4">
       {#each navLinks as links}
         <li class="duration-200 hover:text-blue-500 cursor-pointer list-none">
-          <a href={links.href} class="">
+          <a href={`#${links.href}`} class="">
             {links.text}
           </a>
         </li>
       {/each}
-      <button class="specialBtn"> Contact </button>
+      <button class="specialBtn">
+        <a href="#footer"> Contact </a>
+      </button>
     </nav>
   </div>
 </header>
