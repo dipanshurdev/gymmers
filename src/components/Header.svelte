@@ -19,9 +19,12 @@
   ];
 </script>
 
-<header class="flex flex-col relative z-20">
+<header class="flex flex-col relative z-20 border rounded-lg border-slate-200">
   <div class="max-w-[1400px] mx-auto w-full flex justify-between p-4 py-6">
-    <a href="/">
+    <a
+      href="/"
+      class="border border-slate-200 rounded-lg flex-center hover:border-blue-500 px-4 py-2"
+    >
       <h1 class="font-semibold text-2xl">
         Gym<span class="text-blue-500">mers</span>
       </h1>
