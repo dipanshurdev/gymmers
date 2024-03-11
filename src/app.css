@@ -50,6 +50,10 @@ span {
   animation: fadeIn 300ms ease-in forwards;
 }
 
+.grid-cols2 {
+  grid-template-columns: 1fr 1fr;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

@@ -5,7 +5,7 @@
 
 <div
   class={"grid grid-cols-1 gap-14 md:gap-20 lg:gap-20 relative text-base" +
-    (index === 2 ? "grid-cols- gap-20 w-[97vw]" : " ")}
+    (index === 2 ? " grid-cols2 sm:grid-cols-1 gap-20 w-[97vw]" : " ")}
 >
   <div
     class="{'flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10 ' +
@@ -43,8 +43,14 @@
         <div class="rounded-full aspect-square w-2.5 sm:w-3 bg-blue-500" />
       {/each}
     </div>
-    <div class="flex flex-col bg-white gap-4 flex-1">
-      <img src={feat.imgUrl} alt="product-img" />
+    <div
+      class="flex flex-col bg-white gap-4 flex-1 items-center justify-center"
+    >
+      <img
+        src={feat.imgUrl}
+        class="h-[40rem] sm:h-[35rem] sm:w-[600px]"
+        alt="product-img"
+      />
     </div>
   </div>
 </div>
