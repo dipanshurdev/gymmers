@@ -73,3 +73,9 @@ span {
     @apply rounded-lg border border-transparent py-2 px-5 text-lg font-medium font-[inherit] text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-50;
   }
 }
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
