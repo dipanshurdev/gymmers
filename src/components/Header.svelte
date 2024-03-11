@@ -23,8 +23,7 @@
   <div class="max-w-[1400px] mx-auto w-full flex justify-between p-4 py-6">
     <a href="/">
       <h1 class="font-semibold text-2xl">
-        Gym
-        <span class="text-blue-500">mers</span>
+        Gym<span class="text-blue-500">mers</span>
       </h1>
     </a>
 

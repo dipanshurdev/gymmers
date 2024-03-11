@@ -5,7 +5,7 @@
 
 <div
   class={"grid grid-cols-1 gap-14 md:gap-20 lg:gap-20 relative text-base" +
-    (index === 2 ? " grid-cols2 max-sm:grid-cols-1 gap-20 w-[97vw]" : " ")}
+    (index === 2 ? " grid-cols2 max-sm:grid-cols-1 gap-20 w-[95vw]" : " ")}
 >
   <div
     class="{'flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10 ' +

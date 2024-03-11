@@ -34,7 +34,7 @@
   <div class="flex items-center flex-wrap gap-2 text-xs sm:text-sm mb-4">
     {#each reviewItem.features as keywork}
       <div
-        class="p-1 py-0.5 rounded-md border border-solid border-indigo-400 bg-indigo-50 text-indigo-400"
+        class="p-1 py-0.5 rounded-md border border-solid border-blue-500 bg-blue-50 text-blue-500"
       >
         <p>{keywork}</p>
       </div>

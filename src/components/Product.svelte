@@ -58,19 +58,19 @@
     {#each features as feat, index}
       <ProductCard {feat} {index}>
         {#if index === 0}
-          Experience a beginner exercise <span
-            class="text-indigo-400 font-medium">master</span
+          Experience a beginner exercise <span class="text-blue-500 font-medium"
+            >master</span
           > class
         {:else if index === 1}
-          Lay the foundations for <span class="text-indigo-400 font-medium"
+          Lay the foundations for <span class="text-blue-500 font-medium"
             >routine</span
           > and consistency
         {:else}
-          Workouts specific to your <span class="text-indigo-400 font-medium"
+          Workouts specific to your <span class="text-blue-500 font-medium"
             >environment</span
           >
           and
-          <span class="text-indigo-400 font-medium">expertise</span>
+          <span class="text-blue-500 font-medium">expertise</span>
         {/if}
       </ProductCard>
     {/each}
