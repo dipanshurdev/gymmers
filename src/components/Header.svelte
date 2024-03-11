@@ -1,4 +1,5 @@
 <script>
+  import { openModal } from "../utils/index";
   const navLinks = [
     {
       text: "Home",
@@ -6,11 +7,11 @@
     },
     {
       text: "Product",
-      href: "products",
+      href: "product",
     },
     {
       text: "Review",
-      href: "reviews",
+      href: "review",
     },
     {
       text: "FAQs",
@@ -30,7 +31,10 @@
       </h1>
     </a>
 
-    <button class="md:hidden grid place-items-center">
+    <button
+      class="md:hidden grid place-items-center"
+      on:click={() => ($openModal = true)}
+    >
       <i class="fa-solid fa-bars text-xl"></i>
     </button>
 
