@@ -16,8 +16,10 @@
     >
       <span class="text-blue-500"> GYMMING </span>
       Is
-      <span class="text-slate-700 line-through"> Hard </span> <br />
-      Just Go
+      <span class="text-slate-700 line-through"> Hard </span> <span></span>
+
+      <br />
+      Just Got
       <span class="text-blue-500"> Easier </span>
     </h2>
     <p
