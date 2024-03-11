@@ -1,25 +1,9 @@
 <script>
   import CtAs from "./CTAs.svelte";
   import Header from "./Header.svelte";
-  import Wrapper from "./Wrapper.svelte";
 
-  const ratings = [
-    {
-      icon: "fa-solid fa-star text-amber-400",
-    },
-    {
-      icon: "fa-solid fa-star text-amber-400",
-    },
-    {
-      icon: "fa-solid fa-star text-amber-400",
-    },
-    {
-      icon: "fa-solid fa-star text-amber-400",
-    },
-    {
-      icon: "fa-solid fa-star-half text-amber-400",
-    },
-  ];
+  import Stars from "./Stars.svelte";
+  import Wrapper from "./wrapper.svelte";
 </script>
 
 <Wrapper id="home">
@@ -51,17 +35,7 @@
     </p>
     <CtAs />
     <div class="flex items-center justify-center text-base w-2/4 flex-row py-4">
-      <p>4,6</p>
-      {#each ratings as star}
-        <div class="grid place-items-center relative w-5 h-3">
-          <div
-            class="absolute top-0 left-0 grid place-items-center pr-2 justify-center w-8"
-          >
-            <i class={star.icon}></i>
-          </div>
-        </div>
-      {/each}
-      <p>4k+</p>
+      <Stars />
     </div>
   </div>
 </Wrapper>

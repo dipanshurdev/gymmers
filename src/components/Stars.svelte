@@ -1,15 +1,35 @@
+<script>
+  const ratings = [
+    {
+      icon: "fa-solid fa-star text-amber-400",
+    },
+    {
+      icon: "fa-solid fa-star text-amber-400",
+    },
+    {
+      icon: "fa-solid fa-star text-amber-400",
+    },
+    {
+      icon: "fa-solid fa-star text-amber-400",
+    },
+    {
+      icon: "fa-solid fa-star-half text-amber-400",
+    },
+  ];
+</script>
+
 <div class="flex items-center justify-center gap-2 text-base">
-  <p>4.6</p>
-  {#each [0, 1, 2, 3, 4] as index}
+  <p>4.5</p>
+  {#each ratings as star}
     <div class="grid place-items-center relative">
       <i class="fa-solid fa-star opacity-0"></i>
       <div
         class={"absolute top-0 left-0 grid place-items-center " +
-          (index === 4 ? "w-[60%] overflow-hidden" : " ")}
+          (star === 4 ? "w-[60%] overflow-hidden" : " ")}
       >
-        <i class="fa-solid fa-star text-amber-400"></i>
+        <i class={star.icon}></i>
       </div>
     </div>
   {/each}
-  <p>500+</p>
+  <p>50k+</p>
 </div>
